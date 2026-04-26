@@ -4,23 +4,35 @@ body, html{
     
 }
 
-body{
+body {
     background: url(../img/background_image.jpg) repeat center center fixed;
     background-size: cover;
+    margin-top: 3em;
 }
 
-main{
-    filter: blur(10px);
+main {
     position: relative;
-    opacity: 0;
-    transition: 
-        opacity 2.5s ease-in-out,
-        filter 2.5s ease-in-out;
-    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: fit-content;
+    min-width: 400px;
+    max-width: 90%;
+    padding: 2em;
+    
     margin: auto;
+
     background-color: rgba(0, 0, 0, 0.5);
-    opacity: 50%;
-    border-radius: 40px;
+    border-radius: 30px;
+
+    backdrop-filter: blur(10px);
+
+    opacity: 1;
+    transition: 
+        opacity 2.5s ease-in-out, 
+        filter 2.5s ease-in-out;
 }
 
 header{
@@ -32,7 +44,6 @@ header{
 }
 
 .foto-perfil{
-    margin-top: 3em;
     border: 2px solid #fff;
     border-radius: 100%;
     box-shadow: rgb(28, 32, 93 / 24%) 0px 2px 8px 0px;
@@ -69,6 +80,7 @@ header{
     margin: 1.4em 0;
     padding: 1em;
     transition: backdrop-filter 2s;  
+    min-width: 280px;
 }
 
 .link:hover{
