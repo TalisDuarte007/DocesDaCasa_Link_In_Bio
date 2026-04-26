@@ -18,7 +18,7 @@ main {
     align-items: center;
 
     width: fit-content;
-    min-width: 400px;
+    /* min-width: 400px; */
     max-width: 90%;
     padding: 2em;
     
@@ -68,7 +68,7 @@ header{
     box-sizing: border-box;
     margin: 0 auto;
     max-width: 480px;
-    padding: 2em;
+    padding: 2em 0;
 }
 
 .lista-item{
@@ -80,7 +80,7 @@ header{
     margin: 1.4em 0;
     padding: 1em;
     transition: backdrop-filter 2s;  
-    min-width: 280px;
+    min-width: 200px;
 }
 
 .link:hover{
