@@ -5,7 +5,7 @@ body, html{
 }
 
 body{
-    background: url(../img/forest_raini.jpg) repeat center center fixed;
+    background: url(../img/background_image.jpg) repeat center center fixed;
     background-size: cover;
 }
 
@@ -16,6 +16,11 @@ main{
     transition: 
         opacity 2.5s ease-in-out,
         filter 2.5s ease-in-out;
+    width: 600px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 50%;
+    border-radius: 40px;
 }
 
 header{
@@ -27,6 +32,7 @@ header{
 }
 
 .foto-perfil{
+    margin-top: 3em;
     border: 2px solid #fff;
     border-radius: 100%;
     box-shadow: rgb(28, 32, 93 / 24%) 0px 2px 8px 0px;
